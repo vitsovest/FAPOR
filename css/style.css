@@ -87,8 +87,8 @@ header nav li:hover:after, header nav li.active:after{
 
 .aboutabout{
     color: white;
-    max-width: 1092px;
-    margin: auto;
+    /*max-width: 1092px;
+    margin: auto;*/
 }
 
 .about h1{
@@ -99,6 +99,49 @@ header nav li:hover:after, header nav li.active:after{
 
 .about p{
     font-size: 11px;
+}
+
+.management{
+    height: 577px;
+    background-color: white;
+    padding-top: 122px;
+    padding-bottom: 24px;
+}
+
+.management h5{
+    color: #272b32;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+}
+
+.management h5:after{
+    display: block;
+    margin: auto;
+    width: 61px;
+    height: 2px;
+    background-color: #b5a263;
+    content: "";
+    margin-top: 23px;
+}
+
+.managers{
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.managers .item{
+    max-width: 245px;
+    width: 100%;
+    position: relative;
+}
+
+.item .person{
+
 }
 
 .middle{
@@ -256,9 +299,4 @@ button{
 
 .soc:hover i{
     color: white;
-}
-.para{
-    font-size: 22px;
-    color: red;
-    background-color: #b5a263;
 }
