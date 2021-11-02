@@ -106,6 +106,8 @@ header nav li:hover:after, header nav li.active:after{
     background-color: white;
     padding-top: 122px;
     padding-bottom: 24px;
+    max-width: 890px;
+    margin: auto;
 }
 
 .management h5{
@@ -134,14 +136,69 @@ header nav li:hover:after, header nav li.active:after{
     justify-content: space-between;
 }
 
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
 .managers .item{
     max-width: 245px;
     width: 100%;
     position: relative;
 }
 
-.item .person{
+.managers img{
+    margin-bottom: 24px;
+}
 
+.item .name{
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #272b32;
+    text-transform: uppercase;
+}
+
+.item .name span{
+    font-size: 11px;
+    color: #b7a567;
+    text-transform: none;
+}
+
+.managers nav ul{
+    display: flex;
+    list-style: none;
+    color: #6e7279;
+}
+
+.managers nav ul li{
+     margin-left: 6px;
+}
+
+.managers .soc i{
+    color: white;
+    background-color: #dedede;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 28px;
+}
+
+.show_all{
+    margin-top: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4e5157;
+    border: solid 2px #4e5157;
+    border-radius: 20px;
+    width: 130px;
+    height: 41px;
+    font-size: 12px;
+    line-height: 12px;
+    display: block;
+    text-align: center;
 }
 
 .middle{
@@ -149,6 +206,8 @@ header nav li:hover:after, header nav li.active:after{
     height: 570px;
     margin: auto;
 }
+
+
 
 .response{
     background-color: #f7f7f7;
@@ -275,7 +334,7 @@ button{
     margin-left: 7px;
 }
 
-.soc{
+.footer2 .soc{
     display: inline-block;
     border-radius: 50%;
     border: solid 1px #6e7279;
@@ -286,17 +345,17 @@ button{
     transition: 0.3s;
 }
 
-.soc i{
+.footer2 .soc i{
     color: #6e7279;
     font-size: 14px;
     transition: 0.3s;
 }
 
-.soc:hover{
+.footer2 .soc:hover{
     background-color: #b5a263;
     border: solid 1px #b5a263;
 }
 
-.soc:hover i{
+.footer2 .soc:hover i{
     color: white;
 }
