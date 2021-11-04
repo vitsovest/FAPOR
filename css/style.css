@@ -203,11 +203,18 @@ header nav li:hover:after, header nav li.active:after{
 
 .response{
     background-color: #f7f7f7;
-    /*max-width: 1092px;*/
+    max-width: 890px;
     margin: auto;
     padding-bottom: 91px;
     padding-top: 94px;
     text-align: center;
+}
+
+.response img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100px;
 }
 
 .response h2{
@@ -227,10 +234,11 @@ header nav li:hover:after, header nav li.active:after{
     content: "";
     margin-top: 23px;
 }
-.client{
+.response .owl-carousel img{
+    max-width: 100px;
+    width: 100%;
     margin-top: 49px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 
 .response p{
@@ -242,7 +250,7 @@ header nav li:hover:after, header nav li.active:after{
 }
 h3{
     text-transform: uppercase;
-    font-size: 12.6px;
+    font-size: 13px;
     color: #b6a364;
     margin-top: 33px;
     font-family: 'Open Sans', sans-serif;
@@ -316,7 +324,7 @@ button{
 .footer2 p{
     color: #6e7279;
     font-family: 'Open Sans', sans-serif;
-    font-size: 9.5px;
+    font-size: 10px;
 }
 
 .footer2 nav ul{
@@ -353,4 +361,31 @@ button{
 
 .footer2 .soc:hover i{
     color: white;
+}
+
+.response .owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    left: -20px;
+    top: 180px;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.response .owl-carousel .owl-nav .owl-prev:before{
+    content: "\f053";
+}
+.response .owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    right: -20px;
+    top: 180px;
+    width: 20px;
+    height: 20px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.response .owl-carousel .owl-nav .owl-next:before{
+    content: "\f054";
 }
